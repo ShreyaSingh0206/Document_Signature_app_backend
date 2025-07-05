@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(cookieParser());
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://document-signature-app-frontend-green.vercel.app/',
   credentials: true,
 }));
 
